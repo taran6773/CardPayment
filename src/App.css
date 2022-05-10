@@ -1,0 +1,37 @@
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  flex:1;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+}
+.App>button{
+  margin:20px;
+  /* outline:none;
+  border:none; */
+}
+#newCardId{
+  flex:1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid grey;
+  padding:20px;
+  width:'100%';
+}
+
+#newCardId>input{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.addButton{
+  outline:none;
+  border:none;
+  background-color:green;
+  color:#fff;
+  border-radius:4;
+}
+form{
+  display: flex;
+}
